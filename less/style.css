@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.container-layout {
+  width: 80%;
+  margin: auto;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+body {
+  margin: 0;
+}
